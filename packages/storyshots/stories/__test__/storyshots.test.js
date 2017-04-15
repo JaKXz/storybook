@@ -1,6 +1,6 @@
 import initStoryshots from '../../src';
 
-function createNodeMock (element) {
+function createNodeMock(element) {
   if (element.type === 'input') {
     return { scrollWidth: 123 };
   }
